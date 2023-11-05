@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>top.zhangsiyao.clouddungebc</groupId>
+    <artifactId>CloudDungeBC</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>lss233</id>
+            <url>https://lss233.littleservice.cn/repositories/minecraft</url>
+        </repository>
+        <repository>
+            <id>aliyun-jcenter</id>
+            <url>https://maven.aliyun.com/repository/jcenter</url>
+        </repository>
+        <repository>
+            <id>aliyun-central</id>
+            <url>https://maven.aliyun.com/repository/google</url>
+        </repository>
+        <repository>
+            <id>aliyun-google</id>
+            <url>https://maven.aliyun.com/repository/central</url>
+        </repository>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/net.md-5/bungeecord-api -->
+        <dependency>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>1.20-R0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
+</project>

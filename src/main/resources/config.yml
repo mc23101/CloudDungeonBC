@@ -1,0 +1,17 @@
+setting:
+  #延迟启动地牢,为了确保每个玩家都已经连接至对应地牢子服
+  #建议 3~5 秒
+  delay: 5
+  #在这里设置 BungeeCord 主服
+  main-server: "dp2"
+
+#地牢设置
+dungeon:
+  #当玩家再 BungeeCord 大厅输入 dl start <地牢名> 时将
+  #自动传送至所设子服服务器并创建地牢,地牢结束后返回 BungeeCord 大厅
+  #需在 BungeeCord 配置内设置对应子服服务器名称,并填至下方
+  fire1: "dp1"
+
+# 不需要门票的副本
+none-ticket:
+  - "fox"
